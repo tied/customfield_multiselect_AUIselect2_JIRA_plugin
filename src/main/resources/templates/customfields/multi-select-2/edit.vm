@@ -1,0 +1,31 @@
+## $webResourceManager.requireResource("com.atlassian.auiplugin:aui-select2")
+## <h1>edit.vm</h1>
+
+#disable_html_escaping()
+#controlHeader ($action $customField.id $customField.name $fieldLayoutItem.required $displayParameters.noHeader)
+<form class="aui" style="width: available">
+ <script type="text/javascript">
+   AJS.toInit(function () {
+    AJS.$("#$customField.id").auiSelect2();
+   });
+ </script>
+ <select class="js-example-placeholder-single js-states form-control" name="$customField.id" id="$customField.id" style="width: inherit">
+   <option></option>
+   #foreach ($option in $options)
+     <option value="$option">$option</option>
+   #end
+ </select>
+</form>
+#controlFooter ($action $fieldLayoutItem.fieldDescription $displayParameters.noHeader)
+
+#*
+$!{auiparams.put("controlHeaderClass", "aui-field-text")}
+#searcherEditHeader ($customField.id $customField.name)
+<aui-select id="searcher-$customField.id" name="$customField.id">
+    #foreach($selectorOption in $selectorOptions)
+    <aui-option value="$selectorOption.getGuid()">$selectorOption.getName()</aui-option>
+    #end
+</aui-select>
+#searcherEditFooter ($customField.id $customField.description)
+$!{auiparams.clear()}
+*#

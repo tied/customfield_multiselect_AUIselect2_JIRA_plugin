@@ -1,0 +1,12 @@
+Plugin for implementation of JIRA multiselect field with aui select2 renderer
+by implementing new customfield type
+
+is under development:
+- does not pick options from db currently
+- duplicates log messages to console
+
+webapp/WEB-INF/classes/templates/plugins/fields - folder in JIRA home directory
+to look for standard templates
+
+
+

@@ -1,0 +1,344 @@
+May 10, 2022 12:50:27 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 12:50:27 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 12:50:27 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+SEVERE: starting MultiSelect2 instance construction
+May 10, 2022 12:56:11 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 12:56:11 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 12:56:11 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+SEVERE: starting MultiSelect2 instance construction
+May 10, 2022 1:37:07 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 1:37:07 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 1:37:07 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 1:37:07 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 1:39:09 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 1:39:09 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 1:39:09 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 1:39:09 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 1:52:50 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 1:52:50 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 1:52:50 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 1:52:50 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 1:52:50 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 1:53:08 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 1:53:08 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 1:53:08 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 1:53:08 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 1:53:08 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 1:58:37 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 1:58:37 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 1:58:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 1:58:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 1:58:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 1:59:02 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 1:59:02 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 1:59:02 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 1:59:02 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 1:59:02 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 2:09:44 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 2:09:44 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 2:09:44 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 2:09:44 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 2:09:44 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 2:10:06 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 2:10:06 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 2:10:06 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 2:10:06 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 2:10:06 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 4:12:57 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 4:12:57 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 4:12:57 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 4:12:57 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 4:12:57 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 4:14:29 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 4:14:29 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 4:14:29 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 4:14:29 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 4:14:29 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 4:27:53 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 4:27:53 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 4:27:53 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 4:27:53 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 4:27:53 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 4:47:09 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 4:47:09 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 4:47:09 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 4:47:09 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 4:47:09 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 4:51:42 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 4:51:42 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 4:51:42 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 4:51:42 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 4:51:42 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 5:07:50 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 5:07:50 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 5:07:50 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 5:07:50 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 5:07:50 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:07:10 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:07:10 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:07:10 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:07:10 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:07:10 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:07:26 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:07:26 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:07:26 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:07:26 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:07:26 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:17:37 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:17:37 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:17:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:17:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:17:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:17:53 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:17:53 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:17:53 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:17:53 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:17:54 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:23:14 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:23:14 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:23:14 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:23:14 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:23:14 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:25:00 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:25:00 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:25:00 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:25:00 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:25:00 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:27:48 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:27:48 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:27:48 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:27:48 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:27:48 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:29:16 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:29:16 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:29:16 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:29:16 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:29:16 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:35:17 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:35:17 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:35:17 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:35:17 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:35:17 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:35:41 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:35:41 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:35:41 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:35:41 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:35:41 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:42:30 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:42:30 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:42:30 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:42:30 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:42:30 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 6:42:56 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 6:42:56 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 6:42:56 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 6:42:57 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 6:42:57 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:27:30 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:27:30 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:27:30 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 7:27:30 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 7:27:30 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:27:38 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:27:38 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:27:38 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 7:27:39 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 7:27:39 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:32:29 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:32:29 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:32:29 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 7:32:29 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 7:32:29 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:32:37 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:32:37 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:32:37 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 7:32:38 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 7:32:38 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:35:39 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:35:39 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:35:39 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 7:35:39 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 7:35:39 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:37:43 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:37:43 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:37:43 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+WARNING: testing WARNING log level message output
+May 10, 2022 7:37:43 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: starting MultiSelect2 instance construction
+May 10, 2022 7:37:44 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:56:46 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:56:46 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:56:46 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: MultiSelect2 instance construction
+May 10, 2022 7:56:46 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers
+May 10, 2022 7:57:14 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: logger fileHandler creation success
+May 10, 2022 7:57:14 PM HCBplugins.jira.customfields.LoggerUtils initializeLogger
+INFO: started log....
+May 10, 2022 7:57:14 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: MultiSelect2 instance construction
+May 10, 2022 7:57:15 PM HCBplugins.jira.customfields.MultiSelect2 <init>
+INFO: closing logger's CfAuiSelect2Logger handlers

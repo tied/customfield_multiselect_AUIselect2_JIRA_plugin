@@ -3,19 +3,19 @@
 
 #disable_html_escaping()
 #controlHeader ($action $customField.id $customField.name $fieldLayoutItem.required $displayParameters.noHeader)
-<form class="aui" style="width: available">
  <script type="text/javascript">
    AJS.toInit(function () {
     AJS.$("#$customField.id").auiSelect2();
+    ## alert("template script running");
    });
  </script>
- <select class="js-example-placeholder-single js-states form-control" name="$customField.id" id="$customField.id" style="width: inherit">
+ <select class="js-example-placeholder-single js-states form-control"
+        name="$customField.id" id="$customField.id" multiple="multiple">
    <option></option>
-   #foreach ($option in $options)
+   #foreach ($option in $configs.options) ## it was critical use configs.options instead of options
      <option value="$option">$option</option>
    #end
  </select>
-</form>
 #controlFooter ($action $fieldLayoutItem.fieldDescription $displayParameters.noHeader)
 
 #*

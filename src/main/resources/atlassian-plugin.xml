@@ -30,7 +30,7 @@
         <!--   <context>CfAuiSelect2</context> -->
     </web-resource>
     <customfield-type name="Multi Select 2" i18n-name-key="multi-select-2.name" key="multi-select-2"
-                      class="HCBplugins.jira.customfields.MultiSelect2">
+                      class="HCBplugins.jira.customfields.MultiSelect2CFType">
         <description key="multi-select-2.description">The Multi Select 2 Plugin</description>
         <resource name="view" type="velocity" location="/templates/customfields/multi-select-2/view.vm"/>
         <resource name="edit" type="velocity" location="/templates/customfields/multi-select-2/edit.vm"/>

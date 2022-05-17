@@ -30,6 +30,10 @@ public class LoggerUtils {
     private void initializeLogger(String loggerName) {
         oneAndOnlyLogger = Logger.getLogger(loggerName);
         oneAndOnlyLogger.setUseParentHandlers(false);
+        for (Handler handler : oneAndOnlyLogger.getHandlers()) {
+            // handler.close();
+            oneAndOnlyLogger.removeHandler(handler);
+        }
         ConsoleHandler consoleHandler = new ConsoleHandler();
         consoleHandler.setLevel(Level.ALL);
         oneAndOnlyLogger.addHandler(consoleHandler);
@@ -46,7 +50,7 @@ public class LoggerUtils {
         }
         oneAndOnlyLogger.info("started log....");
         for (Handler handler : oneAndOnlyLogger.getHandlers()) {
-            System.out.println("handler used " + handler.getEncoding() + " " + handler.getClass());
+            oneAndOnlyLogger.info("handler used " + handler.getClass());
         }
     }
 
@@ -60,6 +64,7 @@ public class LoggerUtils {
      *************************************************************************/
     public void closeLogFiles() {
         for (Handler handler : oneAndOnlyLogger.getHandlers()) {
+            oneAndOnlyLogger.removeHandler(handler);
             handler.close();
         }
     }

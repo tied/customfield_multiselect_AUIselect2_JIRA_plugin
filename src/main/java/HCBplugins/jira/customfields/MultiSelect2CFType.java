@@ -1,10 +1,10 @@
 package HCBplugins.jira.customfields;
 
 import com.atlassian.jira.bc.issue.search.SearchService;
-import com.atlassian.jira.component.ComponentAccessor;
 import com.atlassian.jira.config.FeatureManager;
 import com.atlassian.jira.issue.customfields.impl.MultiSelectCFType;
 import com.atlassian.jira.issue.customfields.manager.GenericConfigManager;
+import com.atlassian.jira.issue.customfields.manager.OptionsManager;
 import com.atlassian.jira.issue.customfields.persistence.CustomFieldValuePersister;
 import com.atlassian.jira.issue.fields.rest.json.beans.JiraBaseUrls;
 import com.atlassian.jira.security.JiraAuthenticationContext;
@@ -19,7 +19,7 @@ import java.util.logging.Level;
 jira.core dependency should be uncommented for this plugin to work
 */
 @Named // using @Named instead of @Scanned by Matveev's suggestion
-public class MultiSelect2 extends MultiSelectCFType {
+public class MultiSelect2CFType extends MultiSelectCFType {
     /*
     use of atlassian logger described it this tutorial
     https://developer.atlassian.com/server/jira/platform/writing-jira-event-listeners-with-the-atlassian-event-library/
@@ -36,7 +36,8 @@ public class MultiSelect2 extends MultiSelectCFType {
     */
     @Autowired // appears to be unnecessary
     @Inject
-    public MultiSelect2(@ComponentImport CustomFieldValuePersister customFieldValuePersister
+    public MultiSelect2CFType(@ComponentImport OptionsManager optionsManager
+            , @ComponentImport CustomFieldValuePersister customFieldValuePersister
             , @ComponentImport GenericConfigManager genericConfigManager
             , @ComponentImport JiraBaseUrls jiraBaseUrls
             , @ComponentImport SearchService searchService
@@ -47,7 +48,7 @@ public class MultiSelect2 extends MultiSelectCFType {
         managers trough @ComponentImport annotation of Atlassian Spring Scanner
         I do not know what this matters for yet
          */
-        super(ComponentAccessor.getOptionsManager() // this interface is used to manipulate options. not sure if I need it here
+        super(optionsManager // this interface is used to manipulate options. not sure if I need it here
                 , customFieldValuePersister // This interface is used to save an issue's custom field value to the database
                 , genericConfigManager
                 , jiraBaseUrls
@@ -66,6 +67,7 @@ public class MultiSelect2 extends MultiSelectCFType {
     /* when not overriding getVelocityParameters field uses default
     implementation from MultiSelectCFType superclass
     */
+
     /*
     @Override
     public Map<String, Object> getVelocityParameters(final Issue issue,

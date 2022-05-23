@@ -1,8 +1,8 @@
-package ut.HCBplugins;
+package ut.ru.homecredit.jiraplugin;
 
 import org.junit.Test;
-import HCBplugins.api.MyPluginComponent;
-import HCBplugins.impl.MyPluginComponentImpl;
+import ru.homecredit.jiraplugin.api.MyPluginComponent;
+import ru.homecredit.jiraplugin.impl.MyPluginComponentImpl;
 
 import static org.junit.Assert.assertEquals;
 

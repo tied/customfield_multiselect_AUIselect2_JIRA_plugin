@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>HCBplugins</groupId>
-    <artifactId>CfAuiSelect2</artifactId>
+    <groupId>ru.homecredit.jiraplugin</groupId>
+    <artifactId>multiSelectSelect2CF</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <organization>
-        <name>Home Credit Bank</name>
-        <url>http://www.homecredit.ru/</url>
+        <name>Example Company</name>
+        <url>http://www.example.com/</url>
     </organization>
-    <name>CfAuiSelect2</name>
-    <description>provides custom field with AUI select2 template</description>
+    <name>multiSelectSelect2CF</name>
+    <description>This is the ru.homecredit.jiraplugin:multiSelectSelect2CF plugin for Atlassian JIRA.</description>
     <packaging>atlassian-plugin</packaging>
     <dependencies>
         <dependency>
@@ -65,10 +64,6 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.2.2-atlassian-1</version>
-            <!-- <scope>provided</scope> --> <!-- added trying to get rid of
-            com.google.guava:guava:jar:18.0
-            com.google.code.findbugs:jsr305:jar:3.0.0
-            banned dependency -->
         </dependency>
         <!-- Uncomment to use TestKit in your project. Details at https://bitbucket.org/atlassian/jira-testkit -->
         <!-- You can read more about TestKit at https://developer.atlassian.com/display/JIRADEV/Plugin+Tutorial+-+Smarter+integration+testing+with+TestKit -->
@@ -125,11 +120,9 @@
                     <instructions>
                         <Atlassian-Plugin-Key>${atlassian.plugin.key}</Atlassian-Plugin-Key>
                         <!-- Add package to export here -->
-                        <Export-Package>HCBplugins.api,</Export-Package>
+                        <Export-Package>ru.homecredit.jiraplugin.api,</Export-Package>
                         <!-- Add package import here -->
-                        <Import-Package>org.springframework.osgi.*;resolution:="optional",
-                            org.eclipse.gemini.blueprint.*;resolution:="optional", *
-                        </Import-Package>
+                        <Import-Package>org.springframework.osgi.*;resolution:="optional", org.eclipse.gemini.blueprint.*;resolution:="optional", *</Import-Package>
                         <!-- Ensure plugin is spring powered -->
                         <Spring-Context>*</Spring-Context>
                     </instructions>

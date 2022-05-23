@@ -9,6 +9,3 @@ atlassian-plugin.xml from atlassian tutorial (it was incomplete and outdated),
 implement main class with inherits from superclasses without overriding any
 methods, and develop proper velocity template to make multiselect custom field
 look like versions or labels jira standard fields
-
-
-

@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
-  <plugin-info>
-    <description>${project.description}</description>
-    <version>${project.version}</version>
-    <vendor name="${project.organization.name}" url="${project.organization.url}"/>
-    <param name="plugin-icon">images/pluginIcon.png</param>
-    <param name="plugin-logo">images/pluginLogo.png</param>
-  </plugin-info>
-  <!-- add our i18n resource -->
-  <resource type="i18n" name="i18n" location="multiSelectSelect2CF"/>
-  <!-- add our web resources -->
-  <web-resource key="multiSelectSelect2CF-resources" name="multiSelectSelect2CF Web Resources">
-
-    <dependency>com.atlassian.auiplugin:ajs</dependency>
-    <!-- dependency below are taken from example at
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+        <param name="plugin-icon">images/pluginIcon.png</param>
+        <param name="plugin-logo">images/pluginLogo.png</param>
+    </plugin-info>
+    <!-- add our i18n resource -->
+    <resource type="i18n" name="i18n" location="multiSelectSelect2CF"/>
+    <!-- add our web resources -->
+    <web-resource key="multiSelectSelect2CF-resources" name="multiSelectSelect2CF Web Resources">
+        <!-- context changed due tutorial
+        https://developer.atlassian.com/server/jira/platform/custom-fields-that-use-css-or-javascript-web-resources-in-jira-5-0/
+        -->
+        <context>atl.general</context>
+        <dependency>com.atlassian.auiplugin:ajs</dependency>
+        <!-- dependency below are taken from example at
         https://community.atlassian.com/t5/Jira-discussions/Jira-Custom-Field-Select2-problems/td-p/1833237 -->
-    <dependency>com.atlassian.auiplugin:jquery</dependency>
-    <dependency>com.atlassian.auiplugin:jquery-ui-other</dependency>
-    <dependency>com.atlassian.auiplugin:aui-select2</dependency>
-    <resource type="download" name="multiSelectSelect2CF.css" location="/css/multiSelectSelect2CF.css"/>
-    <resource type="download" name="multiSelectSelect2CF.js" location="/js/multiSelectSelect2CF.js"/>
-    <resource type="download" name="images/" location="/images"/>
-    <!-- context changed due tutorial
-    https://developer.atlassian.com/server/jira/platform/custom-fields-that-use-css-or-javascript-web-resources-in-jira-5-0/
-    <context>multiSelectSelect2CF</context>
+        <dependency>com.atlassian.auiplugin:jquery</dependency>
+        <dependency>com.atlassian.auiplugin:jquery-ui-other</dependency>
+        <dependency>com.atlassian.auiplugin:aui-select2</dependency>
+        <resource type="download" name="multiSelectSelect2CF.css" location="/css/multiSelectSelect2CF.css"/>
+        <!--
+        <resource type="download" name="multiSelectSelect2CF.js" location="/js/multiSelectSelect2CF.js"/>
+        -->
+        <resource type="download" name="images/" location="/images"/>
+        <!--   <context>multiSelectSelect2CF/context> -->
+    </web-resource>
+    <customfield-type name="Multi Select 2 CF" i18n-name-key="multi-select-2-cf.name" key="multi-select-2-cf"
+                          class="ru.homecredit.jiraplugin.jira.customfields.MultiSelect2">
+        <description key="multi-select-2-cf.description">The Multi Select 2 CF Plugin</description>
+        <resource name="view" type="velocity" location="/templates/customfields/multi-select-2-cf/view.vm"/>
+        <resource name="edit" type="velocity" location="/templates/customfields/multi-select-2-cf/edit.vm"/>
+    </customfield-type>
+    <!--
+    customfield-searcher key="auiselect2searcher" name="Multi Select 2 Searcher"
+    trying to change key and name of searcher to make it unique
     -->
-    <context>atl.general</context>
-  </web-resource>
-  <customfield-type name="multi Select 2 CF" i18n-name-key="multi-select-2-cf.name" key="multi-select-2-cf" class="ru.homecredit.jiraplugin.jira.customfields.multiSelect2CF">
-    <description key="multi-select-2-cf.description">The multi Select 2 CF Plugin</description>
-    <resource name="view" type="velocity" location="/templates/customfields/multi-select-2-cf/view.vm"/>
-    <resource name="edit" type="velocity" location="/templates/customfields/multi-select-2-cf/edit.vm"/>
-  </customfield-type>
-  <!--
-  customfield-searcher key="auiselect2searcher" name="Multi Select 2 Searcher"
-  trying to change key and name of searcher to make it unique
-  -->
-  <!--
-  <customfield-searcher key="multiselectsearcher" name="Multi Select Searcher"
-                        i18n-name-key="admin.customfield.searcher.multiselectsearcher.name"
-                        class="com.atlassian.jira.issue.customfields.searchers.MultiSelectSearcher">
-      <description key="admin.customfield.searcher.multiselectsearcher.desc">Search for multiple values using a single
-          select list.
-      </description>
-      <resource type="velocity" name="search"
-                location="templates/plugins/fields/edit-searcher/search-multiselect.vm"/>
-      <resource type="velocity" name="view"
-                location="templates/plugins/fields/view-searcher/view-searcher-multioption.vm"/>
-      <resource type="velocity" name="label"
-                location="templates/plugins/fields/view-searcher/label-searcher-basictext.vm"/>
-      <valid-customfield-type package="${atlassian.plugin.key}" key="multi-select-2-cf"/>
-  </customfield-searcher>
-  -->
+    <!--
+    <customfield-searcher key="multiselectsearcher" name="Multi Select Searcher"
+                          i18n-name-key="admin.customfield.searcher.multiselectsearcher.name"
+                          class="com.atlassian.jira.issue.customfields.searchers.MultiSelectSearcher">
+        <description key="admin.customfield.searcher.multiselectsearcher.desc">Search for multiple values using a single
+            select list.
+        </description>
+        <resource type="velocity" name="search"
+                  location="templates/plugins/fields/edit-searcher/search-multiselect.vm"/>
+        <resource type="velocity" name="view"
+                  location="templates/plugins/fields/view-searcher/view-searcher-multioption.vm"/>
+        <resource type="velocity" name="label"
+                  location="templates/plugins/fields/view-searcher/label-searcher-basictext.vm"/>
+        <valid-customfield-type package="${atlassian.plugin.key}" key="multi-select-2-cf"/>
+    </customfield-searcher>
+    -->
 </atlassian-plugin>

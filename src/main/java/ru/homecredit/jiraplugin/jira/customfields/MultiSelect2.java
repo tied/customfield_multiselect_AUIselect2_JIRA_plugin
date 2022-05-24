@@ -19,7 +19,7 @@ import java.util.logging.Level;
 jira.core dependency in Atlassian SDK generated pom.xml should be uncommented for this plugin to work
 */
 @Named // using @Named instead of @Scanned by Matveev's suggestion
-public class MultiSelect2CFType extends MultiSelectCFType {
+public class MultiSelect2 extends MultiSelectCFType {
     /*
     use of atlassian logger described it this tutorial
     https://developer.atlassian.com/server/jira/platform/writing-jira-event-listeners-with-the-atlassian-event-library/
@@ -36,7 +36,7 @@ public class MultiSelect2CFType extends MultiSelectCFType {
     */
     @Autowired // appears to be unnecessary
     @Inject
-    public MultiSelect2CFType(@ComponentImport OptionsManager optionsManager
+    public MultiSelect2(@ComponentImport OptionsManager optionsManager
             , @ComponentImport CustomFieldValuePersister customFieldValuePersister
             , @ComponentImport GenericConfigManager genericConfigManager
             , @ComponentImport JiraBaseUrls jiraBaseUrls
@@ -56,7 +56,7 @@ public class MultiSelect2CFType extends MultiSelectCFType {
                 , featureManager
                 , jiraAuthenticationContext); // This interface is used to store Generic configuration values for issue's custom field
 
-        loggerUtils = new ru.homecredit.jiraplugin.jira.customfields.LoggerUtils("MultiSelect2CFTypeLogger"
+        loggerUtils = new ru.homecredit.jiraplugin.jira.customfields.LoggerUtils("MultiSelect2Logger"
                 , "C:\\Users\\digit\\Documents\\JAVA\\Plugin\\MultiSelectSelect2CF\\log.log");
         logger = ru.homecredit.jiraplugin.jira.customfields.LoggerUtils.getLogger();
         logger.log(Level.INFO, "MultiSelect2 instance construction");
